@@ -1,0 +1,4 @@
+export AFS_MOUNT_HOME="/home/ssd1/gaoqingdong/wflow_/output"
+export WFLOW_DATASET_STORAGE_DN_DUANXIAO_VIDEO_TRAIN_V1='{"file_format": "TFRecord", "file_schema": [{"name": "DATA_NID", "type": "str", "nullable": false}, {"name": "DATA_VIDEO_FRAMES", "type": "uint8", "codec": ".jpg", "shape": [[-1, -1, 3]], "nullable": false}, {"name": "DATA_AUDIO", "type": "int16", "codec": "pcm_s16le", "nullable": false}, {"name": "DATA_TAG", "type": "str", "nullable": false}, {"name": "DATA_CATEGORY", "type": "str", "nullable": false}, {"name": "DATA_SUB_CATEGORY", "type": "str", "nullable": false}], "storage": {"fs_name": "afs://cnn-bd-main.afs.baidu.com:9902", "ugi": "casd_wflow_ro,8j9v7d", "storage_path": "/user/casd_arch/wflow/online/dataset/standard/duanxiao_video_train/v1", "storage_local_path": "/home/ssd1/gaoqingdong/wflow_/data_train", "bind_mode": "MOUNT"}}'
+
+

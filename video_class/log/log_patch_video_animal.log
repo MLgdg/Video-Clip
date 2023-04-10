@@ -1,0 +1,113 @@
+nohup: ignoring input
+epoch:0--batch:0/95--batchloss:2.0572--batchacc:15.6250--avgloss:2.0572--avgacc:15.6250
+Save best model at ./checkpoint/model_best.pth==
+epoch:0--batch:1/95--batchloss:7.0879--batchacc:21.8750--avgloss:4.5725--avgacc:18.7500
+epoch:0--batch:2/95--batchloss:3.0538--batchacc:12.5000--avgloss:4.0663--avgacc:16.6667
+epoch:0--batch:3/95--batchloss:5.9294--batchacc:25.0000--avgloss:4.5321--avgacc:18.7500
+epoch:0--batch:4/95--batchloss:4.6673--batchacc:9.3750--avgloss:4.5591--avgacc:16.8750
+epoch:0--batch:5/95--batchloss:4.2751--batchacc:31.2500--avgloss:4.5118--avgacc:19.2708
+epoch:0--batch:6/95--batchloss:6.3570--batchacc:15.6250--avgloss:4.7754--avgacc:18.7500
+epoch:0--batch:7/95--batchloss:9.5919--batchacc:15.6250--avgloss:5.3774--avgacc:18.3594
+epoch:0--batch:8/95--batchloss:5.0317--batchacc:31.2500--avgloss:5.3390--avgacc:19.7917
+epoch:0--batch:9/95--batchloss:3.7326--batchacc:15.6250--avgloss:5.1784--avgacc:19.3750
+epoch:0--batch:10/95--batchloss:4.3096--batchacc:12.5000--avgloss:5.0994--avgacc:18.7500
+epoch:0--batch:11/95--batchloss:2.7933--batchacc:18.7500--avgloss:4.9072--avgacc:18.7500
+epoch:0--batch:12/95--batchloss:3.0235--batchacc:15.6250--avgloss:4.7623--avgacc:18.5096
+epoch:0--batch:13/95--batchloss:1.9311--batchacc:28.1250--avgloss:4.5601--avgacc:19.1964
+epoch:0--batch:14/95--batchloss:2.3518--batchacc:25.0000--avgloss:4.4129--avgacc:19.5833
+epoch:0--batch:15/95--batchloss:2.2917--batchacc:9.3750--avgloss:4.2803--avgacc:18.9453
+epoch:0--batch:16/95--batchloss:2.0869--batchacc:18.7500--avgloss:4.1513--avgacc:18.9338
+epoch:0--batch:17/95--batchloss:2.1457--batchacc:9.3750--avgloss:4.0399--avgacc:18.4028
+epoch:0--batch:18/95--batchloss:2.1113--batchacc:18.7500--avgloss:3.9384--avgacc:18.4211
+epoch:0--batch:19/95--batchloss:2.2139--batchacc:9.3750--avgloss:3.8521--avgacc:17.9688
+epoch:0--batch:20/95--batchloss:1.7080--batchacc:34.3750--avgloss:3.7500--avgacc:18.7500
+epoch:0--batch:21/95--batchloss:1.8199--batchacc:18.7500--avgloss:3.6623--avgacc:18.7500
+epoch:0--batch:22/95--batchloss:1.8682--batchacc:18.7500--avgloss:3.5843--avgacc:18.7500
+epoch:0--batch:23/95--batchloss:1.8424--batchacc:9.3750--avgloss:3.5117--avgacc:18.3594
+epoch:0--batch:24/95--batchloss:1.8952--batchacc:15.6250--avgloss:3.4471--avgacc:18.2500
+epoch:0--batch:25/95--batchloss:1.7306--batchacc:34.3750--avgloss:3.3810--avgacc:18.8702
+epoch:0--batch:26/95--batchloss:1.8573--batchacc:21.8750--avgloss:3.3246--avgacc:18.9815
+epoch:0--batch:27/95--batchloss:1.7802--batchacc:31.2500--avgloss:3.2694--avgacc:19.4196
+epoch:0--batch:28/95--batchloss:1.8431--batchacc:21.8750--avgloss:3.2203--avgacc:19.5043
+epoch:0--batch:29/95--batchloss:1.8947--batchacc:15.6250--avgloss:3.1761--avgacc:19.3750
+epoch:0--batch:30/95--batchloss:1.7794--batchacc:12.5000--avgloss:3.1310--avgacc:19.1532
+epoch:0--batch:31/95--batchloss:1.7751--batchacc:15.6250--avgloss:3.0886--avgacc:19.0430
+epoch:0--batch:32/95--batchloss:1.9206--batchacc:15.6250--avgloss:3.0533--avgacc:18.9394
+Save best model at ./checkpoint/model_best.pth==
+epoch:0--batch:33/95--batchloss:1.7166--batchacc:21.8750--avgloss:3.0139--avgacc:19.0257
+epoch:0--batch:34/95--batchloss:1.9075--batchacc:21.8750--avgloss:2.9823--avgacc:19.1071
+epoch:0--batch:35/95--batchloss:1.8952--batchacc:9.3750--avgloss:2.9521--avgacc:18.8368
+epoch:0--batch:36/95--batchloss:1.7480--batchacc:21.8750--avgloss:2.9196--avgacc:18.9189
+epoch:0--batch:37/95--batchloss:1.9582--batchacc:18.7500--avgloss:2.8943--avgacc:18.9145
+epoch:0--batch:38/95--batchloss:1.9425--batchacc:25.0000--avgloss:2.8699--avgacc:19.0705
+epoch:0--batch:39/95--batchloss:1.7520--batchacc:28.1250--avgloss:2.8419--avgacc:19.2969
+epoch:0--batch:40/95--batchloss:1.9006--batchacc:15.6250--avgloss:2.8190--avgacc:19.2073
+epoch:0--batch:41/95--batchloss:1.9267--batchacc:12.5000--avgloss:2.7977--avgacc:19.0476
+epoch:0--batch:42/95--batchloss:1.8774--batchacc:15.6250--avgloss:2.7763--avgacc:18.9680
+epoch:0--batch:43/95--batchloss:1.8259--batchacc:28.1250--avgloss:2.7547--avgacc:19.1761
+epoch:0--batch:44/95--batchloss:1.9253--batchacc:21.8750--avgloss:2.7363--avgacc:19.2361
+epoch:0--batch:45/95--batchloss:1.9156--batchacc:21.8750--avgloss:2.7185--avgacc:19.2935
+epoch:0--batch:46/95--batchloss:1.7722--batchacc:28.1250--avgloss:2.6983--avgacc:19.4814
+epoch:0--batch:47/95--batchloss:1.7886--batchacc:25.0000--avgloss:2.6794--avgacc:19.5964
+epoch:0--batch:48/95--batchloss:1.8337--batchacc:18.7500--avgloss:2.6621--avgacc:19.5791
+epoch:0--batch:49/95--batchloss:1.7619--batchacc:28.1250--avgloss:2.6441--avgacc:19.7500
+epoch:0--batch:50/95--batchloss:1.7583--batchacc:31.2500--avgloss:2.6267--avgacc:19.9755
+epoch:0--batch:51/95--batchloss:1.6833--batchacc:43.7500--avgloss:2.6086--avgacc:20.4327
+epoch:0--batch:52/95--batchloss:1.8674--batchacc:28.1250--avgloss:2.5946--avgacc:20.5778
+epoch:0--batch:53/95--batchloss:1.8634--batchacc:12.5000--avgloss:2.5811--avgacc:20.4282
+epoch:0--batch:54/95--batchloss:2.0179--batchacc:12.5000--avgloss:2.5708--avgacc:20.2841
+epoch:0--batch:55/95--batchloss:1.6729--batchacc:40.6250--avgloss:2.5548--avgacc:20.6473
+epoch:0--batch:56/95--batchloss:1.8363--batchacc:15.6250--avgloss:2.5422--avgacc:20.5592
+epoch:0--batch:57/95--batchloss:1.8556--batchacc:25.0000--avgloss:2.5304--avgacc:20.6358
+epoch:0--batch:58/95--batchloss:1.9850--batchacc:25.0000--avgloss:2.5211--avgacc:20.7097
+epoch:0--batch:59/95--batchloss:1.9003--batchacc:25.0000--avgloss:2.5108--avgacc:20.7812
+epoch:0--batch:60/95--batchloss:1.8706--batchacc:15.6250--avgloss:2.5003--avgacc:20.6967
+epoch:0--batch:61/95--batchloss:1.6966--batchacc:31.2500--avgloss:2.4873--avgacc:20.8669
+epoch:0--batch:62/95--batchloss:1.7945--batchacc:18.7500--avgloss:2.4763--avgacc:20.8333
+epoch:0--batch:63/95--batchloss:1.8395--batchacc:21.8750--avgloss:2.4664--avgacc:20.8496
+epoch:0--batch:64/95--batchloss:1.8776--batchacc:12.5000--avgloss:2.4573--avgacc:20.7212
+Save best model at ./checkpoint/model_best.pth==
+epoch:0--batch:65/95--batchloss:1.7642--batchacc:12.5000--avgloss:2.4468--avgacc:20.5966
+epoch:0--batch:66/95--batchloss:1.8951--batchacc:21.8750--avgloss:2.4386--avgacc:20.6157
+epoch:0--batch:67/95--batchloss:1.7533--batchacc:21.8750--avgloss:2.4285--avgacc:20.6342
+epoch:0--batch:68/95--batchloss:1.7856--batchacc:18.7500--avgloss:2.4192--avgacc:20.6069
+epoch:0--batch:69/95--batchloss:1.8557--batchacc:15.6250--avgloss:2.4111--avgacc:20.5357
+epoch:0--batch:70/95--batchloss:1.7489--batchacc:31.2500--avgloss:2.4018--avgacc:20.6866
+epoch:0--batch:71/95--batchloss:1.7858--batchacc:21.8750--avgloss:2.3932--avgacc:20.7031
+epoch:0--batch:72/95--batchloss:1.8440--batchacc:12.5000--avgloss:2.3857--avgacc:20.5908
+epoch:0--batch:73/95--batchloss:1.8332--batchacc:15.6250--avgloss:2.3782--avgacc:20.5236
+epoch:0--batch:74/95--batchloss:1.8297--batchacc:21.8750--avgloss:2.3709--avgacc:20.5417
+epoch:0--batch:75/95--batchloss:1.8255--batchacc:15.6250--avgloss:2.3638--avgacc:20.4770
+epoch:0--batch:76/95--batchloss:1.8489--batchacc:12.5000--avgloss:2.3571--avgacc:20.3734
+epoch:0--batch:77/95--batchloss:1.8017--batchacc:21.8750--avgloss:2.3499--avgacc:20.3926
+epoch:0--batch:78/95--batchloss:1.8707--batchacc:6.2500--avgloss:2.3439--avgacc:20.2136
+epoch:0--batch:79/95--batchloss:1.7428--batchacc:21.8750--avgloss:2.3364--avgacc:20.2344
+epoch:0--batch:80/95--batchloss:1.7422--batchacc:18.7500--avgloss:2.3290--avgacc:20.2160
+epoch:0--batch:81/95--batchloss:1.8169--batchacc:12.5000--avgloss:2.3228--avgacc:20.1220
+epoch:0--batch:82/95--batchloss:1.7842--batchacc:25.0000--avgloss:2.3163--avgacc:20.1807
+epoch:0--batch:83/95--batchloss:1.7142--batchacc:28.1250--avgloss:2.3091--avgacc:20.2753
+epoch:0--batch:84/95--batchloss:1.7384--batchacc:18.7500--avgloss:2.3024--avgacc:20.2574
+epoch:0--batch:85/95--batchloss:1.8499--batchacc:15.6250--avgloss:2.2972--avgacc:20.2035
+epoch:0--batch:86/95--batchloss:1.9344--batchacc:21.8750--avgloss:2.2930--avgacc:20.2227
+epoch:0--batch:87/95--batchloss:1.9973--batchacc:18.7500--avgloss:2.2896--avgacc:20.2060
+epoch:0--batch:88/95--batchloss:1.7011--batchacc:37.5000--avgloss:2.2830--avgacc:20.4003
+epoch:0--batch:89/95--batchloss:1.8015--batchacc:25.0000--avgloss:2.2777--avgacc:20.4514
+epoch:0--batch:90/95--batchloss:1.7533--batchacc:21.8750--avgloss:2.2719--avgacc:20.4670
+epoch:0--batch:91/95--batchloss:1.8230--batchacc:25.0000--avgloss:2.2670--avgacc:20.5163
+epoch:0--batch:92/95--batchloss:1.8290--batchacc:21.8750--avgloss:2.2623--avgacc:20.5309
+epoch:0--batch:93/95--batchloss:1.9301--batchacc:12.5000--avgloss:2.2588--avgacc:20.4455
+epoch:0--batch:94/95--batchloss:1.8523--batchacc:22.7273--avgloss:2.2558--avgacc:20.4620
+epoch:1--batch:0/95--batchloss:1.8415--batchacc:21.8750--avgloss:1.8415--avgacc:21.8750
+Save best model at ./checkpoint/model_best.pth==
+epoch:1--batch:1/95--batchloss:1.7481--batchacc:21.8750--avgloss:1.7948--avgacc:21.8750
+epoch:1--batch:2/95--batchloss:1.7253--batchacc:25.0000--avgloss:1.7716--avgacc:22.9167
+Traceback (most recent call last):
+  File "train2.py", line 92, in <module>
+    main(args)
+  File "train2.py", line 60, in main
+    loss.backward()
+  File "/home/bpfsrw_8/gaoqingdong/图短小融合/env/mario/lib/python3.6/site-packages/torch/tensor.py", line 107, in backward
+    torch.autograd.backward(self, gradient, retain_graph, create_graph)
+  File "/home/bpfsrw_8/gaoqingdong/图短小融合/env/mario/lib/python3.6/site-packages/torch/autograd/__init__.py", line 93, in backward
+    allow_unreachable=True)  # allow_unreachable flag
+RuntimeError: CUDA out of memory. Tried to allocate 126.00 MiB (GPU 7; 22.38 GiB total capacity; 18.68 GiB already allocated; 82.56 MiB free; 702.50 MiB cached)
