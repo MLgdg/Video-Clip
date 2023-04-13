@@ -6,10 +6,11 @@ from io import open
 import torch
 from torch import nn
 #from apex.normalization.fused_layer_norm import FusedLayerNorm
-from torch.nn import LayerNorm as FusedLayerNorm
+#from torch.nn import LayerNorm 
+from track import RMSNorm as LayerNorm
+from mask import PadMasking, FutureMasking
 
-
-class UniterTextEmbeddings(nn.Module):
+class TextEmbeddings(nn.Module):
     def __init__(self, config):
         super().__init__()
         self.word_embeddings = nn.Embedding(config.vocab_size,
@@ -19,14 +20,16 @@ class UniterTextEmbeddings(nn.Module):
         self.token_type_embeddings = nn.Embedding(config.type_vocab_size,
                                                   config.hidden_size)
 
-
-        self.LayerNorm = FusedLayerNorm(config.hidden_size, eps=1e-12)
+        self.LayerNorm = LayerNorm(config.hidden_size, eps=1e-12)
         self.dropout = nn.Dropout(config.hidden_dropout_prob)
-
-    def forward(self, input_ids, position_ids, text_attn_masks, token_type_ids=None):
+        self.pmask = PadMasking(pad_idx=0)
+        self.tmask = FutureMasking()
+    def forward(self, input_ids, token_type_ids=None):
         #if token_type_ids is None:
         #    token_type_ids = torch.zeros_like(input_ids)
-
+        position_ids = torch.arange(0, input_ids.size(1), dtype=torch.long
+                                    ).unsqueeze(0).repeat(input_ids.size(0),1).to(input_ids.device)
+        text_attn_masks = self.pmask(input_ids) + self.tmask(input_ids)
         words_embeddings = self.word_embeddings(input_ids)
         position_embeddings = self.position_embeddings(position_ids)
         #token_type_embeddings = self.token_type_embeddings(token_type_ids)
@@ -41,7 +44,7 @@ if __name__ == '__main__':
     config = json.load(open('../conf/uvat.json','r'))
     import utils
     config = utils.Config(config)
-    mode = UniterTextEmbeddings(config)
+    mode = TextEmbeddings(config)
     a = torch.arange(0, 10).view(2,5).to(torch.long)
     b = torch.arange(0, 10).view(2,5).to(torch.long)
     print(mode(a,b).shape)
