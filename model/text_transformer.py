@@ -3,25 +3,30 @@ import torch
 import torch.nn.functional as F
 from torch import nn
 from mask import PadMasking, FutureMasking
-from track import RMSNorm as 
+from track import RMSNorm as LayerNorm
 
 
 class QuickGELU(nn.Module):
     def forward(self, x: torch.Tensor):
         return x * torch.sigmoid(1.702 * x)
 
+class FeedForward(nn.Module):
+
+    def __init__(self, d_model):
+        super().__init__()
+        self.l1 = nn.Linear(d_model, d_model * 4)
+        self.ac = QuickGELU()
+        self.l2 = nn.Linear(d_model * 4, d_model)
+
+    def forward(self, x):
+        return self.l2(self.ac(self.l1(x)))
 
 class ResidualAttentionBlock(nn.Module):
     def __init__(self, d_model, n_head):
         super().__init__()
-
-        self.attn = nn.text(d_model, n_head)
+        self.attn = nn.MultiheadAttention(d_model, n_head)
         self.ln_1 = LayerNorm(d_model)
-        self.mlp = nn.Sequential(OrderedDict([
-            ("c_fc", nn.Linear(d_model, d_model * 4)),
-            ("gelu", QuickGELU()),
-            ("c_proj", nn.Linear(d_model * 4, d_model))
-        ]))
+        self.mlp = FeedForward(d_model)
         self.ln_2 = LayerNorm(d_model)
         #self.attn_mask = attn_mask
     def attention(self, x, attn_mask=None):
@@ -40,6 +45,6 @@ class Transformer(nn.Module):
         self.width = width
         self.layers = layers
         self.resblocks = nn.Sequential(*[ResidualAttentionBlock(width, heads) for _ in range(layers)])
-
+        
     def forward(self, x, attn_mask=None):
         return self.resblocks(x, attn_mask=None)
