@@ -20,8 +20,7 @@ class RMSNorm(torch.nn.Module):
 
 ## 新的激活或前传结构
 class FeedForward(nn.Module):
-    def __init__(self, dim, hidden_dim, multiple_of=256,
-    ):
+    def __init__(self, dim, hidden_dim, multiple_of=256):
         super().__init__()
         hidden_dim = int(2 * hidden_dim / 3)
         hidden_dim = multiple_of * ((hidden_dim + multiple_of - 1) // multiple_of)

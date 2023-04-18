@@ -3,7 +3,7 @@ import torch
 import torch.nn.functional as F
 from torch import nn
 from mask import PadMasking, FutureMasking
-from track import RMSNorm as LayerNorm
+from trick import RMSNorm as LayerNorm
 
 
 class QuickGELU(nn.Module):
